@@ -1,0 +1,63 @@
+/* Apply styling to the table container */
+.table-container {
+    // max-height: 300px; /* Set the desired height for scrolling */
+    // overflow-y: auto; /* Enable vertical scrolling if content overflows */
+    margin: 20px 0;
+  }
+  
+  /* Apply styling to the table */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  
+    th, td {
+      padding: 12px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+  
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+  
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  
+    tr:hover {
+      background-color: #e0e0e0;
+    }
+
+    /* Apply styling to the buttons container */
+.buttons-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Apply styling to the buttons */
+  .save-button, .cancel-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .save-button:hover, .cancel-button:hover {
+    background-color: #0056b3;
+  }
+  }
+  
+  .cancel-save-wrapper{
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+    .saveBtn{
+      margin-right: 20px;
+    }
+  }
